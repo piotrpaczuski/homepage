@@ -1,15 +1,26 @@
-console.log("Witaj programisto!");
-
-let headerButtonElement = document.querySelector(".js-button");
-let bodyElement = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
-
-headerButtonElement.addEventListener("click", () => {
-    bodyElement.classList.toggle("body--black");
-    if (themeName.innerText === "Tryb Ciemny") {
-        themeName.innerText = "Tryb jasny";
-    } else {
-        themeName.innerText = "Tryb Ciemny";
+{
+    const welcomeMessage = () => {
+        console.log("Witaj programisto!");
     }
-});
 
+    const buttonClickEvent = () => {
+        const headerButtonElement = document.querySelector(".js-button");
+
+        headerButtonElement.addEventListener("click", toggleBackground)
+    }
+
+    const toggleBackground = () =>{
+        const bodyElement = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
+
+        bodyElement.classList.toggle("body--black");
+        themeName.innerHTML = bodyElement.classList.contains("body--black") ? "Tryb jasny" : "Tryb ciemny";
+    }
+    
+    const init = () => {
+        welcomeMessage();
+        buttonClickEvent();
+    }
+
+    init();
+}
