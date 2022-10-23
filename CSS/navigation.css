@@ -1,0 +1,23 @@
+.navigation__List {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 40px 15px 1px;
+}
+
+.navigation__Item {
+    background-color: #e1bd74;
+    margin: auto;
+    padding: 15px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.navigation__Item:hover {
+    background-color: #ffa500;
+}
+
+.navigation__link, .container__link {
+    text-decoration: none;
+    color: #000;
+}
