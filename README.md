@@ -1,5 +1,6 @@
 # homepage
-Demo: [Projekt](https://piotrpaczuski.github.io/homepage/)
+##Demo
+[Projekt](https://piotrpaczuski.github.io/homepage/)
 
 ## Description
 This is my first project to include some information about me. 
