@@ -1,4 +1,4 @@
-console.log("Witaj programisto!");
+console.log("Witaj programisto! Ten projekt został dodany do repozytorium GIT.");
 
 let headerButtonElement = document.querySelector(".js-button");
 let bodyElement = document.querySelector(".js-body");
