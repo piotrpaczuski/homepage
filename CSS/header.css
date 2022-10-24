@@ -1,0 +1,15 @@
+.header__button {
+    align-items: center;
+    justify-content: center;
+    background-color: #e1bd74;
+    margin: 30px auto;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 6px;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    background-color: #ffa500;
+}

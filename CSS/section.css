@@ -1,0 +1,17 @@
+.section {
+    border-bottom: 1px solid #272727;
+}
+
+.section__paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section__important {
+    font-weight: 1000;
+    color: #52be37;
+}
+
+.section__setBackgroundColor {
+    background-color: #ebe52f80;
+}

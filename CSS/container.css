@@ -1,0 +1,25 @@
+.container {
+    padding: 10px 50px;
+}
+
+.container__photo {
+    border-radius: 30px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.container__button {
+    align-items: center;
+    justify-content: center;
+    background-color: #e1bd74;
+    margin: 30px auto;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 6px;
+}
+
+.container__button:hover {
+    cursor: pointer;
+    background-color: #ffa500;
+}
